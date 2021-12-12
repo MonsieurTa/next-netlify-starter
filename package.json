@@ -9,15 +9,18 @@
     "test": "jest --setupFiles dotenv/config"
   },
   "dependencies": {
+    "@react-three/fiber": "^7.0.21",
     "axios": "^0.24.0",
     "dotenv": "^10.0.0",
     "next": "^12.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "three": "^0.135.0"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.0.0-beta.4",
     "@testing-library/jest-dom": "^5.16.1",
-    "jest": "^27.4.4"
+    "jest": "^27.4.4",
+    "next-transpile-modules": "^9.0.0"
   }
 }
